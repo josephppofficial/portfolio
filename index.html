@@ -1,0 +1,441 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <title>Joseph Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="icon" type="image/png" href="images/developer-image-removebg-preview.png">
+</head>
+<body>
+    <nav>
+        <div class="nav-container">
+            <div class="logo" data-aos="zoom-in" data-aos-duration="1000">
+                <span>Joseph Pp</span>
+            </div>
+            <div class="links">
+                <div class="link" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="100"><a href="#home">Home</a></div>
+                <div class="link" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200"><a href="#about">About</a></div>
+                <div class="link" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300"><a href="#skills">Skills</a></div>
+                <div class="link" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="400"><a href="#projects">Projects</a></div>
+                
+                <div class="link contact-btn" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="600"><a href="#contact">Contact Me</a></div>
+            </div>
+            <i class="fa-solid fa-bars hamburg" onclick="hamburg()"></i>
+        </div>
+
+<!-- Dropdown Menu -->
+<div class="dropdown" id="dropdown">
+    <!-- Close Button Inside Dropdown -->
+    <i class="fa-solid fa-xmark close-menu" id="close-icon" onclick="closeMenu()"></i>
+    
+    <div class="links">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact Me</a>
+    </div>
+</div>
+
+    </nav>
+    
+    <!-- Home Section -->
+    <section id="home">
+        <div class="main-container">
+            <div class="image" data-aos="zoom-in-right" data-aos-duration="2500">
+                <img src="images/developer-image.png" alt="profile Image" class="profile-image">
+            </div>
+            <div class="content">
+                <h1 data-aos="fade-left" data-aos-duration="1000" data-aos-delay="800">Hey I'm <span>Joseph Pp</span></h1>
+                <div class="typewriter" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="900">I'm a <span></span></div>
+                <p data-aos="flip-up" data-aos-duration="1000" data-aos-delay="1000">Aspiring Python Django Developer with internship experience in building web applications. I enjoy learning new technologies, improving my skills, and developing efficient solutions.</p>
+                <div class="social-links" data-aos="flip-down" data-aos-duration="1000" data-aos-delay="1200">
+                    <a href="https://github.com/josephppofficial/" target="blank" ><i class="fa-brands fa-github"></i></a>
+                    <a href="https://www.linkedin.com/in/josephppoffcial/" target="blank"><i class="fa-brands fa-linkedin"></i></a>  
+                </div>
+                <div class="btn" data-aos="zoom-out-left" data-aos-duration="1000" data-aos-delay="1300">
+                    <a href="assets/Resume_Joseph.pdf" download>
+                        <button>Download CV</button>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about-section">
+        <div class="section-title" data-aos="fade-up">
+            <h2>About Me</h2>
+            <div class="underline"></div>
+        </div>
+        <div class="about-container">
+            <div class="about-image" data-aos="fade-right" data-aos-duration="1000">
+                <img src="images/about-image.png" alt="About Image">
+            </div>
+            <div class="about-content" data-aos="fade-left" data-aos-duration="1000">
+                <h3>Python Django Developer</h3>
+                <p>I am a passionate Python Django developer with a strong foundation in web development. I specialize in building robust backend systems, RESTful APIs, and full-stack web applications. With hands-on experience from my internships and personal projects, I focus on writing efficient, scalable, and maintainable code that solves real-world problems.<br>
+
+                    I'm always eager to expand my knowledge, especially in Django and AWS, while staying up to date with industry trends. Currently, I'm seeking opportunities in the IT field, where I can apply my skills and grow as a developer</p>
+                
+                
+            </div>
+        </div>
+    </section>
+    <section id="timeline" class="timeline-section">
+        <div class="section-title" data-aos="fade-up">
+            <h2>My Journey</h2>
+            <div class="underline"></div>
+        </div>
+        
+        <div class="timeline-container">
+            <div class="timeline-item" data-aos="fade-right" data-aos-delay="100">
+                <div class="timeline-dot"></div>
+                <div class="timeline-content">
+                    <h3>Python Full-stack Developer Internship</h3>
+                    <p>IROHUB Infotech Kochi</p>
+                    <span class="date">Mar 2024 - Aug 2024</span>      
+                </div>
+            </div>
+            
+            <div class="timeline-item" data-aos="fade-left" data-aos-delay="200">
+                <div class="timeline-dot"></div>
+                <div class="timeline-content">
+                    <h3>
+                        Amazon web service (aws) Internship</h3>
+                        <p>Idatalytics Kochi</p>
+                    <span class="date">Jun 2022 - Oct 2022 </span>
+                </div>
+            </div>
+            
+            <div class="timeline-item" data-aos="fade-right" data-aos-delay="300">
+                <div class="timeline-dot"></div>
+                <div class="timeline-content">
+                    <h3>BACHELOR OF COMPUTER APPLICATION (MG UNIVERSITY)</h3>
+                    <p>Mes To Abdulla Memorial College,Kunnukara</p>
+                    <span class="date">(2019 - 2022)</span>
+                </div>
+            </div>
+            
+            <!--further need available-->
+            <!--<div class="timeline-item" data-aos="fade-left" data-aos-delay="400">
+                <div class="timeline-dot"></div>
+                <div class="timeline-content">
+                    <h3></h3>
+                    <span class="date">May 2021 - July 2021</span>
+                    <p></p>
+                </div>
+            </div>-->
+
+        </div>
+    </section>
+    <!-- Skills Section -->
+    <section id="skills" class="skills-section">
+        <div class="section-title" data-aos="fade-up">
+            <h2>My Skills</h2>
+            <div class="underline"></div>
+        </div>
+        <div class="skills-container">
+            <div class="skill-category" data-aos="fade-up" data-aos-delay="100">
+                <h3>Backend</h3>
+                <div class="skills-grid">
+                    <div class="skill-item">
+                        <div class="skill-icon"><i class="fab fa-python"></i></div>
+                        <div class="skill-info">
+                            <h4>Python</h4>
+                            <div class="progress-bar">
+                                <div class="progress" style="width: 90%"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-icon"><i class="fa fa-server"></i></div>
+                        <div class="skill-info">
+                            <h4>Django</h4>
+                            <div class="progress-bar">
+                                <div class="progress" style="width: 85%"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-icon"><i class="fa fa-database"></i></div>
+                        <div class="skill-info">
+                            <h4>SQL</h4>
+                            <div class="progress-bar">
+                                <div class="progress" style="width: 80%"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-icon"><i class="fab fa-aws"></i></div>
+                        <div class="skill-info">
+                            <h4>AWS</h4>
+                            <div class="progress-bar">
+                                <div class="progress" style="width: 75%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="skill-category" data-aos="fade-up" data-aos-delay="200">
+                <h3>Frontend</h3>
+                <div class="skills-grid">
+                    <div class="skill-item">
+                        <div class="skill-icon"><i class="fab fa-html5"></i></div>
+                        <div class="skill-info">
+                            <h4>HTML</h4>
+                            <div class="progress-bar">
+                                <div class="progress" style="width: 95%"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-icon"><i class="fab fa-css3-alt"></i></div>
+                        <div class="skill-info">
+                            <h4>CSS</h4>
+                            <div class="progress-bar">
+                                <div class="progress" style="width: 90%"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-icon"><i class="fab fa-js"></i></div>
+                        <div class="skill-info">
+                            <h4>JavaScript</h4>
+                            <div class="progress-bar">
+                                <div class="progress" style="width: 80%"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-icon"><i class="fab fa-bootstrap"></i></div>
+                        <div class="skill-info">
+                            <h4>Bootstrap</h4>
+                            <div class="progress-bar">
+                                <div class="progress" style="width: 85%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects-section">
+        <div class="section-title" data-aos="fade-up">
+            <h2>My Projects</h2>
+            <div class="underline"></div>
+        </div>
+        
+        <div class="projects-container">
+            <div class="project-item" data-aos="fade-up" data-aos-delay="100">
+                <div class="project-image">
+                    <img src="images/dailymart.png" alt="DailyMart Project">
+                </div>
+                <div class="project-content">
+                    <h3>DailyMart E-Commerce</h3>
+                    <p>Daily Mart - A responsive Django e-commerce platform with user authentication, product browsing, shopping cart, secure checkout, and admin product management.</p>
+                    <div class="project-tech">
+                        <span>Python</span>
+                        <span>Django</span>
+                        <span>HTML/CSS</span>
+                        <span>JavaScript</span>
+                        <span>SQLite</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="#" class="btn-project">Live Demo</a>
+                        <a href="https://github.com/josephppofficial/project" target="blank" class="btn-project">View Code</a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="project-item" data-aos="fade-up" data-aos-delay="200">
+                <div class="project-image">
+                    <img src="images/portfolio-project.png" alt="Portfolio Project">
+                </div>
+                <div class="project-content">
+                    <h3>Personal Portfolio Website</h3>
+                    <p>A responsive portfolio website built to showcase my projects and skills. Features include smooth scrolling, animations, and contact form with email notification.</p>
+                    <div class="project-tech">
+                        <span>HTML</span>
+                        <span>CSS</span>
+                        <span>JavaScript</span>
+                        <span>Bootstrap</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="#" class="btn-project">Live Demo</a>
+                        <a href="#" class="btn-project">View Code</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section">
+        <div class="section-title" data-aos="fade-up">
+            <h2>Contact Me</h2>
+            <div class="underline"></div>
+        </div>
+        
+        <div class="contact-container">
+            <div class="contact-info" data-aos="fade-right" data-aos-delay="100">
+                <h3>Let's Connect</h3>
+                <p>Feel free to reach out to me for collaboration, job opportunities, or just to say hello!</p>
+               <!--
+                <div class="info-item">
+                    <i class="fas fa-envelope"></i>
+                    <div>
+                        <h4>Email</h4>
+                        <p>joseph@example.com</p>
+                    </div>
+                </div>
+                
+                <div class="info-item">
+                    <i class="fas fa-phone"></i>
+                    <div>
+                        <h4>Phone</h4>
+                        <p>+1 (123) 456-7890</p>
+                    </div>
+                </div>
+                
+                <div class="info-item">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <div>
+                        <h4>Location</h4>
+                        <p>New York, USA</p>
+                    </div>
+                </div>
+                
+                <div class="social-links-large">
+                    <a href="#"><i class="fab fa-github"></i></a>
+                    <a href="#"><i class="fab fa-linkedin"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                </div>
+            -->
+            </div>
+            
+            <div class="contact-form" data-aos="fade-left" data-aos-delay="200">
+                <form id="contactForm" class="mx-auto max-w-lg bg-white p-6 rounded-lg shadow-md">
+                    <div class="form-group mb-4">
+                        <input type="text" name="name" placeholder="Your Name" required class="w-full p-3 border rounded">
+                    </div>
+                    <div class="form-group mb-4">
+                        <input type="email" name="email" placeholder="Your Email" required class="w-full p-3 border rounded">
+                    </div>
+                    <div class="form-group mb-4">
+                        <input type="text" name="subject" placeholder="Subject" class="w-full p-3 border rounded">
+                    </div>
+                    <div class="form-group mb-4">
+                        <textarea name="message" placeholder="Your Message" rows="5" required class="w-full p-3 border rounded"></textarea>
+                    </div>
+                    <div class="text-center">
+                        <button type="submit" class="btn-submit px-6 py-3 bg-blue-500 text-white rounded hover:bg-blue-600 transition">Send Message</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-logo">
+                <span>Joseph</span>
+            </div>
+            <p>© 2024 All Rights Reserved</p>
+        </div>
+    </footer>
+    
+<!-- Make sure this script is loaded before you try to use emailjs -->
+<script src="https://cdn.emailjs.com/dist/email.min.js"></script>
+<script>
+  // Wait for the page to fully load before initializing EmailJS
+  window.onload = function() {
+    emailjs.init("BjKoFnk_Wq-rVsT_r");
+    
+    // Set up the form handler after EmailJS is initialized
+    document.getElementById('contactForm').addEventListener('submit', function(event) {
+      event.preventDefault();
+      
+      // Show sending indicator
+      const button = this.querySelector('button[type="submit"]');
+      const originalText = button.textContent;
+      button.textContent = "Sending...";
+      button.disabled = true;
+      
+      // Send the form
+      emailjs.sendForm('service_rt2t74g', 'template_hcsv30j', this)
+        .then(function() {
+          // Success message
+          alert('Your message has been sent successfully!');
+          document.getElementById('contactForm').reset();
+          button.textContent = originalText;
+          button.disabled = false;
+        }, function(error) {
+          // Error handling
+          console.error('Error:', error);
+          alert('Sorry, there was an error sending your message. Error: ' + error.text);
+          button.textContent = originalText;
+          button.disabled = false;
+        });
+    });
+  };
+</script>
+
+</script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init({offset: 120, duration: 1000});
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script>
+        // Typewriter effect with Typed.js
+        var typed = new Typed('.typewriter span', {
+            strings: ["Python Developer", "Django Enthusiast", "Web Developer"],
+            typeSpeed: 60,
+            backSpeed: 60,
+            loop: true
+        });
+
+        function hamburg(){
+            const navbar = document.querySelector(".dropdown")
+            navbar.style.transform = "translateY(0px)"
+        }
+        function cancel(){
+            const navbar = document.querySelector(".dropdown")
+            navbar.style.transform = "translateY(-500px)"
+        }
+
+        function openMenu() {
+    document.getElementById("dropdown").style.transform = "translateY(0px)";
+}
+
+function closeMenu() {
+    document.getElementById("dropdown").style.transform = "translateY(-500px)";
+}
+
+        // Smooth scrolling for internal links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+                // Close mobile menu if open
+                if (window.innerWidth < 884) {
+                    cancel();
+                }
+            });
+        });
+    </script>
+</body>
+</html>
