@@ -103,7 +103,7 @@ nav {
     width: 100%;
     height: auto;
     transform: translateY(-500px);
-    backdrop-filter: brightness(40%) blur(3px);
+    background: rgba(0, 0, 0, 0.8); /* Solid background to avoid blur issues */
     box-shadow: 0 0 20px black;
     transition: transform 0.3s ease-in-out;  /* Improved transition */
 }
@@ -1007,26 +1007,3 @@ document.addEventListener('DOMContentLoaded', function() {
     });
 });
 */
-.hamburg {
-    display: block; /* Ensure it's visible */
-    color: #333; /* Dark color for visibility */
-    font-size: 24px; /* Make it larger */
-    position: relative; /* Ensure it's positioned properly */
-    z-index: 110; /* Keep it above other elements */
-}
-
-@media (max-width: 768px) {
-    .hamburg {
-        display: block; /* Show only on mobile */
-    }
-    
-    .nav-container {
-        position: relative; /* Ensure proper positioning context */
-    }
-}
-
-@media (min-width: 769px) {
-    .hamburg {
-        display: none; /* Hide on desktop if needed */
-    }
-}
