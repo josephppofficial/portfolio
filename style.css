@@ -982,6 +982,20 @@ html {
         padding: 80px 10px 40px 10px;
     }
 }
+.overlay, .dark-overlay, .hero-section::before {
+    display: none !important;
+}
+
+.navbar {
+    position: relative;
+    z-index: 1000;
+}
+
+@media (max-width: 768px) {
+    .hero-section {
+        background: none !important;
+    }
+}
 
 /* Add this meta tag to your HTML head section */
 /* <meta name="viewport" content="width=device-width, initial-scale=1.0"> */
