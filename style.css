@@ -96,14 +96,14 @@ nav {
     color: rgb(109,67, 0);
 }
 .dropdown {
-    z-index: 9999;  /* Increased z-index */
-    position: fixed;
+    position: absolute !important;
+    z-index: 1000 !important;
     top: 0;
     left: 0;
     width: 100%;
     height: auto;
     transform: translateY(-500px);
-    background: rgba(0, 0, 0, 0.8); /* Solid background to avoid blur issues */
+    backdrop-filter: brightness(40%) blur(3px);
     box-shadow: 0 0 20px black;
     transition: transform 0.3s ease-in-out;  /* Improved transition */
 }
